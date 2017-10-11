@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		2172D6E31F8D13BF00735D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2172D6E21F8D13BF00735D8F /* AppDelegate.swift */; };
 		2172D6E51F8D13BF00735D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2172D6E41F8D13BF00735D8F /* ViewController.swift */; };
-		2172D6E81F8D13BF00735D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2172D6E61F8D13BF00735D8F /* Main.storyboard */; };
 		2172D6EA1F8D13BF00735D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2172D6E91F8D13BF00735D8F /* Assets.xcassets */; };
 		2172D6ED1F8D13BF00735D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2172D6EB1F8D13BF00735D8F /* LaunchScreen.storyboard */; };
+		2172D6F51F8D14BC00735D8F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2172D6F41F8D14BC00735D8F /* ToggleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2172D6DF1F8D13BF00735D8F /* ToggleViewPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleViewPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2172D6E21F8D13BF00735D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2172D6E41F8D13BF00735D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2172D6E71F8D13BF00735D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2172D6E91F8D13BF00735D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2172D6EC1F8D13BF00735D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2172D6EE1F8D13BF00735D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2172D6F41F8D14BC00735D8F /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				2172D6E21F8D13BF00735D8F /* AppDelegate.swift */,
 				2172D6E41F8D13BF00735D8F /* ViewController.swift */,
-				2172D6E61F8D13BF00735D8F /* Main.storyboard */,
+				2172D6F41F8D14BC00735D8F /* ToggleButton.swift */,
 				2172D6E91F8D13BF00735D8F /* Assets.xcassets */,
 				2172D6EB1F8D13BF00735D8F /* LaunchScreen.storyboard */,
 				2172D6EE1F8D13BF00735D8F /* Info.plist */,
@@ -125,7 +125,6 @@
 			files = (
 				2172D6ED1F8D13BF00735D8F /* LaunchScreen.storyboard in Resources */,
 				2172D6EA1F8D13BF00735D8F /* Assets.xcassets in Resources */,
-				2172D6E81F8D13BF00735D8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2172D6E51F8D13BF00735D8F /* ViewController.swift in Sources */,
+				2172D6F51F8D14BC00735D8F /* ToggleButton.swift in Sources */,
 				2172D6E31F8D13BF00735D8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +144,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2172D6E61F8D13BF00735D8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2172D6E71F8D13BF00735D8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2172D6EB1F8D13BF00735D8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
