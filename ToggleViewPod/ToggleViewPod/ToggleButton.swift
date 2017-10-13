@@ -16,7 +16,6 @@ class ToggleButton: UIView {
     let activeColor : UIColor = .green
     let inactiveColor : UIColor = .red
     var active : Bool = false
-
     let circleView = UIView()
     init(frame: CGRect, size: Int) {
         super.init(frame: frame)

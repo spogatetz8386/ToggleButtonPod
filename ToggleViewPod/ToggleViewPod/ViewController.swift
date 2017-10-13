@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let v = ToggleButton(frame: CGRect(x: 0, y: 0, width: 160, height: 40), size: 80)
-        v.backgroundColor = .black
+        let v = ToggleButton(frame: CGRect(x: 10, y: 110, width: 160, height: 40), size: 80)
         self.view.addSubview(v)
         // Do any additional setup after loading the view, typically from a nib.
     }
